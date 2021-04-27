@@ -1,0 +1,48 @@
+body{
+    background-color: black;
+    display: inline;
+}
+div.container{
+    display: inline;
+    height: 24%;
+    width: 99%;
+    justify-content: center;
+}
+div#left img{
+    position: relative;
+    height: 50px;
+    width: 50px;
+    left: -58px;
+    margin-left: 208px;
+}
+
+div#right{
+    display: block;
+    margin-left: 80px;
+    margin-top: -14px;
+    padding: 0px;
+}
+div#right img{
+    position: relative;
+    top: 6px;
+    left: -19px;
+}
+
+div#mid img{
+    height: 0px;
+    width: 0px;
+}
+div.container2{
+    display: inline-block;
+    margin-top: 52%;
+    width: 99%;
+    height: 1000px;
+}
+.item{
+    position: relative;
+    box-sizing: border-box;
+    box-shadow: aqua;
+    margin: 5px;
+    width: 155px;
+    left: 100px;
+}
